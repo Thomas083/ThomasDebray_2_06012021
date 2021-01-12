@@ -4,3 +4,27 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/* création des class */
+.logoFloat{
+    float: left;
+}
+.noFloat{
+    clear: both;
+}
+.textRight{
+    text-align: right;
+}
+
+
+
+/* Header */
+
+#menu ul li {
+    list-style-type: none;
+    display: inline;
+}
+#filtres ul li {
+    list-style-type: none;
+    display: inline;    
+}
