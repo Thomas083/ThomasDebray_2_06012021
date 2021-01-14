@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web\css\all.min.css" />
     <link rel="stylesheet" href="style.css" />
     <title>
@@ -17,36 +18,42 @@
     <header>
         <div class="navbar">
             <a class="brand" href="">
-                <img src="images/logo/Reservia.svg" alt="Logo Reservia" />
+                <img src="images/logo/Reservia.svg" alt="Logo du site Reservia" />
             </a>
             <nav class="main-nav">
+<<<<<<< Updated upstream
                 <!--navigation's menu on page-->
                 <a href="Hebergement">Hébergements</a>
                 <a href="Activites">Activités</a>
+=======
+                <!--navigation's menu on page-->
+                <a href="#Hebergement">Hébergements</a>
+                <a href="#Activites">Activités</a>
+>>>>>>> Stashed changes
             </nav>
             <a id="subscribe" href="">S'inscrire</a>
         </div>
 
         <div class="banner">
-            <h1>Trouvez votre hébergement pour des vacances de rêve
+            <h1>
+                Trouvez votre hébergement pour des vacances de rêve
                 <span>En plein centre ville ou en pleine nature</span>
             </h1>
             <form>
-                <i class="fas fa-map-marker-alt black"></i>
-                <input class="city" type="search" placeholder="Marseille, France"
-                    aria-label="Ecrire la ville de votre recherche" />
+                <i class="fas fa-map-marker-alt clr-black"></i>
+                <input class="city" type="text" placeholder="Marseille, France" aria-label="Ecrire une ville" />
                 <button type="button" class="search">Rechercher</button>
                 <button type="button" class="search-icon"><i class="fas fa-search fa-lg"></i></button>
             </form>
-            <nav class="tags">
-                <p>Filtres</p>
-                <!--filter for research-->
-                <button class="tag"><i class="fas fa-money-bill-wave"></i>Économique</button>
-                <button class="tag"><i class="fas fa-child"></i>Familial</button>
-                <button class="tag"><i class="fas fa-heart"></i>Romantique</button>
-                <button class="tag"><i class="fas fa-dog"></i>Animaux autorisés</button>
-            </nav>
-            <p><i class="fas fa-info fa-sm"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+            <div class="tags">
+                <div>Filtres</div>
+                <button class="tag"><i class="fas fa-money-bill-wave"></i>économique</button>
+                <button class="tag"><i class="fas fa-child"></i>familial</button>
+                <button class="tag"><i class="fas fa-heart"></i>romantique</button>
+                <button class="tag"><i class="fas fa-dog"></i>animaux autorisés</button>
+            </div>
+            <p><i class="fas fa-info fa-sm"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+
         </div>
     </header>
     <main>
