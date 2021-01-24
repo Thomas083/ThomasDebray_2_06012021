@@ -304,6 +304,21 @@ a {
 .card-activities .text-wrapper {
   margin: 0 0 0 1em;
 }
+/* FOOTER */
+footer {
+  padding: 20px;
+  background: var(--alt-clr);
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.navbar-btm {
+  width: 300px;
+}
+.navbar-btm a {
+  display: block;
+  padding-bottom: 1em;
+}
 
   /* TABLETS */
   @media only screen and (min-width: 768px) {
@@ -450,7 +465,9 @@ a {
       .card-activities h3 {
         margin: 0.5em;
       }
-
+      footer {
+        padding: 2em 3em;
+      }
 }
 
 
@@ -497,5 +514,7 @@ a {
         margin: 1em 0.5em;
         font-size: 16px !important;
       }
-    
+      .navbar-btm {
+        width: calc(80% / 3);
+      }
 }
